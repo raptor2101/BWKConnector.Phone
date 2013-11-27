@@ -4,9 +4,9 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import de.raptor2101.BattleWorldsKronos.Connector.Gui.R;
-import de.raptor2101.BattleWorldsKronos.Connector.JSON.PlayerInfo;
-import de.raptor2101.BattleWorldsKronos.Connector.JSON.PlayerInfo.State;
+import de.raptor2101.BattleWorldsKronos.Connector.Data.Entities.Player;
+import de.raptor2101.BattleWorldsKronos.Connector.Data.Entities.Player.State;
+import de.raptor2101.BattleWorldsKronos.Connector.Gui.R;;
 
 public class PlayerInfoView extends LinearLayout {
   public PlayerInfoView(Context context) {
@@ -16,7 +16,7 @@ public class PlayerInfoView extends LinearLayout {
 
   }
 
-  public void setPlayerInfo(PlayerInfo playerInfo) {
+  public void setPlayer(Player playerInfo) {
     State state = playerInfo.getState();
     LinearLayout playerLine = (LinearLayout) findViewById(R.id.label_player_info_view_PlayerLine);
     playerLine.setBackgroundColor(state.getColor(this.getContext()));
