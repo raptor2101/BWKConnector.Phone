@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.raptor2101.BattleWorldsKronos.Connector.Gui"
-    android:versionCode="2004"
-    android:versionName="0.1.1 (Phone)" >
+    android:versionCode="2005"
+    android:versionName="0.1.2 (Phone)" >
 	<supports-screens android:smallScreens="true"
         android:normalScreens="true"
-        android:largeScreens="true"
-        android:xlargeScreens="true" />
+        android:largeScreens="false"
+        android:xlargeScreens="false" />
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
