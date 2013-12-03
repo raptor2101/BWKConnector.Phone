@@ -30,6 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="de.raptor2101.BattleWorldsKronos.Connector.Gui.Activities.WriteMessageActivity" android:label="@string/title_activity_write_message"></activity>
         <activity android:name="de.raptor2101.BattleWorldsKronos.Connector.Gui.Activities.SettingsActivity" android:label="@string/title_activity_settings"></activity>
     </application>
 
